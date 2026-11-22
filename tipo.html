@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Black Fitness treinos</title>
+    <link rel="stylesheet" href="Css/style.css">
 </head>
 <body style="background-color: rgb(255, 255, 255);">
     <div 
@@ -17,20 +18,18 @@
     <h1 style="color: rgb(0, 0, 0);">Treinos</h1>
 </div>
       <h2 style="color: rgb(0, 0, 0); font-family: Georgia, 'Times New Roman', Times, serif;">Bem vindos aos treinos da Black Fitness, peço que preencha as informações abaixo.</h2><br>
-      <label>
-        <label for="TIPO CORPORAL" style="color: rgb(0, 0, 0);"><p>Coloque suas informações fisicas e o quanto que pratica atividades fisicas no dia a dia.</label><br>
-        </p>   
-        <input type="text" name="ATF" placeholder="ATF no dia a dia">  
-        <input type="submit" name="ENVIAR"><br><br>
+      <label for="ATF" style="color: rgb(0, 0, 0);"><p>Coloque suas informações físicas e o quanto pratica atividades físicas no dia a dia.</p></label>
+      <form action="cadastro.html">
+        <input id="ATF" type="text" name="ATF" placeholder="ATF no dia a dia">
+        <br><br>
         <input type="number" name="KG" placeholder="Seu peso">
-        <input type="submit" name="ENVIAR"><br><br>
-        <input type="text" name="NOME COMPLETO" placeholder="Digite seu nome">
-        <input type="submit" name="ENVIAR"><br><br>
+        <br><br>
+        <input type="text" name="NOME_COMPLETO" placeholder="Digite seu nome">
+        <br><br>
         <input type="email" name="email" placeholder="Digite seu email">
-        <input type="submit" name="ENVIAR"> <br><br>
-      </label>
-
-      <button onclick="window.location.href='cadastro.html'">Cadastre-se</button>
+        <br><br>
+        <button type="submit">Cadastre-se</button>
+      </form>
 
 </body>
 </html>

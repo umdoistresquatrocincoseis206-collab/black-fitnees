@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro Black Fitness</title>
+    <link rel="stylesheet" href="Css/cadastro.css">
 </head>
 <body>
     
-    <a href="index.html"><b>"VOLTAR"</b></a>
+    <a href="index.html">Voltar</a>
 
     <h1><b>Cadastro Black Fitness</b></h1>
 
@@ -15,12 +16,17 @@
 
 
 
-    <p><label for="nome">Nome:</label>
-    <input id="nome" label="Nome" type="text" placeholder="Nome">
-    <p><label for="cpf">CPF:</label>
-    <input id="cpf" label="CPF" type="text" placeholder="CPF">
-    
-    <p><label for="email">Email:</label>
-    <input id="email" label="Email" type="text" placeholder="Email">
+    <form>
+        <p><label for="nome">Nome:</label>
+        <input id="nome" name="nome" type="text" placeholder="Nome"></p>
+
+        <p><label for="cpf">CPF:</label>
+        <input id="cpf" name="cpf" type="text" placeholder="CPF"></p>
+
+        <p><label for="email">Email:</label>
+        <input id="email" name="email" type="email" placeholder="Email"></p>
+
+        <button type="submit">Enviar cadastro</button>
+    </form>
 </body>
 </html>
