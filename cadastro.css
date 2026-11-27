@@ -1,4 +1,4 @@
-input[type="text"], input[type="email"], input[type="password"]{
+input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
         
         border: 2px solid #ccc;
         background-color: rgb(229, 221, 232);

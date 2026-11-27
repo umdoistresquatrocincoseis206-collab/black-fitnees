@@ -1,0 +1,30 @@
+h1{
+
+    font-family: "Open Sans", sans-serif;
+
+}
+
+input[id="ATF"]{
+
+    border: 3px solid gray;
+    border-radius: 3px;
+    width: 200px;
+    height: 30px;
+
+}
+input[id="number"]{
+
+    border: 3px solid gray;
+    border-radius: 3px;
+    width: 200px;
+    height: 30px;
+
+}
+input[id="email"]{
+
+    border: 3px solid gray;
+    border-radius: 3px;
+    width: 200px;
+    height: 30px;
+
+}

@@ -1,11 +1,50 @@
 h1{
-    background: orange;
-    font-family: "Open Sans", sans-serif;
+    margin-left: 200px;
+    font-family: open sans;
+    top: -90px;
+    position: relative;
+  
 }
-.button{
+.yume{
+    color: orange;
     width: 200px;
     height: 40px;
-    border: 3px solid #d46531;
-    border-radius: 4px;
+    border-radius: 7px;
+    animation: pulse 1s infinite;
+    transition: background-color 0.3s ease;
 }
+p{
+    font-family: arial;
+    color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
+}
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.topo{
+    background-color: orange;
+}
+.header{
+    background-color: orange;
+    width: 100%;
+}
+img.logo{
+    width: 10%;
+    height: 10%;
+    margin-top:40px;
+    margin-left: 20px;
+}

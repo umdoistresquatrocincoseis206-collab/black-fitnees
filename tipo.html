@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Black Fitness treinos</title>
-    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="tipo.css">
 </head>
 <body style="background-color: rgb(255, 255, 255);">
     <div 
@@ -15,23 +15,32 @@
     display: flex;
     justify-content: normal;">
     
-    <a href="index.html" align-items="normal">Voltar</a>
 
     <h1 style="color: rgb(0, 0, 0);">Treinos</h1>
 </div>
-      <h2 style="color: rgb(0, 0, 0); font-family: Georgia, 'Times New Roman', Times, serif;">Bem vindos aos treinos da Black Fitness, peço que preencha as informações abaixo.</h2><br>
+      <h2 style="color: rgb(0, 0, 0); font-family: Georgia, 'Times New Roman', Times, serif;">Bem vindos aos treinos da Black Fitness, peço que preencha as informações abaixo.</h2>
+        <label for="Biotipo">Seu Biotipo fisíco:</label><br>
+        <input type="checkbox" id="Ectomorfo" name="Ectomorfo" value="Ectomorfo">
+        <label for="Ectomorfo">ECTOMORFO</label><br>
+        <input type="checkbox" id="Mesomorfo" name="Ectomorfo" value="Ectomorfo">
+        <label for="Mesomorfo">MESOMORFO</label><BR>
+        <input type="checkbox" id="Endomorfo" name="Ectomorfo" value="Ectomorfo">
+        <label for="Endomorfo">ENDOMORFO</label>
+
       <label for="ATF" style="color: rgb(0, 0, 0);"><p>Coloque suas informações físicas e o quanto pratica atividades físicas no dia a dia.</p></label>
       <form action="cadastro.html">
+        <label for="Tempo de Atividade Fiíca"> O quanto você pratica?</label>
         <input id="ATF" type="text" name="ATF" placeholder="ATF no dia a dia">
         <br><br>
-        <input type="number" name="KG" placeholder="Seu peso">
+        <label for="Peso">Qual seu peso?</label>
+        <input id="number" type="number" name="KG" placeholder="Seu peso">
         <br><br>
-        <input type="text" name="NOME_COMPLETO" placeholder="Digite seu nome">
-        <br><br>
-        <input type="email" name="email" placeholder="Digite seu email">
-        <br><br>
+        <label for="Email"> Email</label>
+        <input id="email" type="email" name="email" placeholder="Digite seu email">
+        <br><br>        
         <button type="submit">Cadastre-se</button>
-      </form>
 
+      </form>
+   
 </body>
 </html>
